@@ -4,7 +4,7 @@ dotenv = config.dotenv
 #You need to keep dotenv disabled on remote servers
 if dotenv == "1":
     from dotenv import load_dotenv
-    load_dotenv(".env")
+    load_dotenv("example.env")
 
 
 def load_env():
