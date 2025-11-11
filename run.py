@@ -30,6 +30,7 @@ level = config.LEVEL
 logger = setup_logging(level)
 from Src.Utilities.loadenv import load_env
 env_vars = load_env()
+print("prova log")
 
 #Configure Env Vars
 Global_Proxy = config.Global_Proxy
